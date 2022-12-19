@@ -9,7 +9,7 @@ from distutils.core import setup, Command
 sys.path.insert(0, './layout/')
 
 import package
-
+subprocess.call("ls -la",shell=True)
 # try:
 #     from setuptools import setup
 # except ImportError, err:
