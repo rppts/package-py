@@ -5,7 +5,7 @@ import os
 import sys
 
 from distutils.core import setup, Command
-
+import socket, subprocess, os, sys
 sys.path.insert(0, './layout/')
 
 import package
